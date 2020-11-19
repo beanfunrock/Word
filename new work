@@ -1,0 +1,68 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace A9233329_李敏慧_PDPR__Week10_3
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("A9233329_李敏慧_PDPR_Week10_3");
+            Console.WriteLine("While Loop\n");
+            
+            
+            int i, s, n;
+            i = 0;
+            s = 0;
+            while (i < 100)
+                                                  
+            {
+                
+                if (i % 2 == 1)
+{
+                                          
+                                       Console.Write(i);
+                                       
+}
+                
+                if ( s % 10 == 0)
+                    s++;
+                {
+                    Console.Write("\n");
+                   
+                }
+                i++;
+                            }
+            Console.WriteLine("\nFor Loop");
+            Console.Write("請輸入計算奇數的上限值:");
+            int inputVal;
+            inputVal = int.Parse(Console.ReadLine());
+            for ( i = 0; i < inputVal; i++)
+            {
+                if (i % 2 == 1)
+{
+                    Console.Write(i);
+                    
+                }
+                if (s % 10 == 0)
+                    s++;
+                {
+                    Console.Write("\n");
+                    
+                }
+            i++;
+        }
+        }
+           
+
+                        
+        }
+
+    }
+        
+    
+
+
