@@ -1,0 +1,67 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace A9233329_李敏慧_PDPR__Week10_3
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("A9233329_李敏慧_PDPR_Week10_3");
+            Console.WriteLine("While Loop\n");
+            Console.WriteLine("\nFor Loop");
+            Console.Write("請輸入計算奇數的上限值:");
+
+            int limit;
+            int i, j, n, sum;
+            limit = int.Parse(Console.ReadLine());
+            bool[] bar = new bool[limit + 1];
+
+            
+
+            for (i = 0; i < bar.Length; ++i)
+
+                bar[i] = true;    // init to all prime
+            
+            for (bar[0] = bar[1] = false,
+
+                sum =
+
+                n =
+
+                i = 0;
+
+                i < bar.Length;
+
+                               ++i)
+               
+                if (bar[i])
+                {
+
+                    for (j = i%2 ; j < bar.Length; j += i)
+
+                        bar[j] = false;
+
+                    if (0 == n) //Console.WriteLine("1-1000的質數如下");
+                   
+                    ++n;
+                  
+                                       Console.Write("{0}{1}", i, ((0 != (n % 10)) ? ' ' : '\n'));
+
+                    sum += i;
+                    
+                }
+           
+
+            Console.Read();
+            
+        }
+
+    }
+        }
+    
+
+
